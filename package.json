@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is backend of Ecommerce Flipkart Clone using MERN",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "multer": "^1.4.3",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "save": "^2.4.0",
+    "shortid": "^2.2.16",
+    "slugify": "^1.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node ./src/index.server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "project",
+    "backend",
+    "api",
+    "api",
+    "mern"
+  ],
+  "author": "Kartavya & Abhishek",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+// const app = express();
+// const mongoose = require('mongoose');
+// const bodyParser = require('body-parser')
+
+// //routes
+// const userRoutes = require('./routes/user');
+
+
+// //Mongodb Connection
+// mongoose.connect(
+//     `mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONDO_DB_PASSWORD}@cluster0.4z5o3.mongodb.net/${process.nextTick.MONGO_DB_DATABASE}?retryWrites=true&w=majority`, 
+//     {
+//         useNewUrlParser: true,
+//         useUnifiesTopology: true,
+//         useCreateIndex: true
+//     }
+// ).then(() => {
+//     console.log('Database Connected');
+// });
+
+
+// //Parse data
+// app.use(express.json());
+// app.use('/api', userRoutes);
